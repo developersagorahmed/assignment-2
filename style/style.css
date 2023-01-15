@@ -1,0 +1,609 @@
+*{
+    margin: 0;
+   
+}
+
+
+/* header nav style */
+
+
+.header-container{
+    background-color:rgba(255, 144, 14, 0.1);
+    width: 100%;
+    height: 100%;
+    
+}
+.header-section{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.header-logo h1{
+
+font-family: 'Work Sans';
+font-weight: 700;
+font-size: 45px;
+text-align: center;
+color: #131313;
+margin-top: 50px;
+margin-left: 60px;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-nav-section{
+    width: 477px;
+    height: 26px;
+    margin-top: 63px;
+    margin-right: 50px;
+}
+
+.header-nav li{
+    list-style: none;
+    
+}
+.header-nav li a{
+    text-decoration: none;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+
+.header-showcase-section{
+    margin: auto;
+    width: 862px;
+    height: 225px;
+    margin-top: 116px;
+}
+
+.header-showcase-title{
+width: 862px;
+/* height: 225px; */
+font-family: 'Work Sans';
+font-weight: 700;
+font-size: 64px;
+text-align: center;
+color: #131313;
+}
+
+p.header-showcase-description{
+width: 868px;
+height: 52px;
+font-family: 'Work Sans';
+font-weight: 400;
+font-size: 16px;
+text-align: center;
+color: #727272;
+margin-top: 25px;
+}
+.button{
+    margin: auto;
+    width: 180px;
+    height: 64px;
+    margin-top: 53px;
+    margin-bottom: 50px;
+}
+.button button{
+    width: 140px;
+    height: 50px;
+    background: #FF900E;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+}
+.button button:hover{
+    background: #444343;
+    color: #FF900E;
+    transition: .5s ease-out
+}
+
+
+.banner-section{
+    width: 100%;
+    height: 500px;
+    background-image:url('../images/banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 80%;
+    margin-top: 50px;
+    padding-bottom: 45px;
+
+}
+/* features section style */
+.features-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 130px;
+}
+.fratures-img{
+    width: 40%;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.fratures-img img{
+    width: 240px;
+    height: 240px;
+}
+.features-info{
+    width: 23%;
+}
+.features-title{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+color: #727272;
+
+}
+.color-black{
+    color: black;
+}
+.color-orange{
+    color: #FF900E;
+}
+
+.features-description{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.5px;
+  color: #727272;
+  padding-bottom: 25px;
+  
+    
+}
+.features-button{
+    width: 140px;
+    height: 50px;
+    background: #FF900E;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+}
+
+.features-button:hover{
+    background: #424242;
+    color: #FF900E;
+    transition: .5s ease-out
+}
+
+
+
+
+/* main showcase section style */
+.main-showcase-section{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding-top: 130px;
+    align-items: center;
+}
+
+.main-showcase-img img{
+    width: 90%;
+    height: 90%;
+    margin-left: 70px;
+}
+.main-showcase-header{
+    padding-bottom: 26px;
+font-family: 'Work Sans';
+font-weight: 700;
+font-size: 34px;
+color: #131313;
+width: 300px;
+margin-left: 15px;
+
+}
+.border{
+    border-left: 5px solid #FF900E;
+}
+.showcase-header-description{
+width: 460px;
+font-family: 'Work Sans';
+font-weight: 400;
+font-size: 16px;
+color: #727272;
+}
+.main-showcase-content{
+    width: 385px;
+    padding: 15px;
+    margin-top: 20px;
+    box-shadow:5px 5px 11px 3px #424242;
+    border-radius: 5px;
+}
+h3.main-showcase-title{
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 15px;
+    color: #131313;
+    padding-bottom: 7px;
+}
+p.main-showcase-description{
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.main-showcase-button{
+    text-align: center;
+    position: relative;
+    width: 169px;
+    background-color: #FF900E;
+    color: white;
+    margin-top: 28px;
+    padding: 16px 1px;
+    border-radius: 5px;
+    bottom: 85px;
+    left: 14px;
+}
+.main-showcase-button:hover{
+    background-color:#131313;
+    color: #FF900E;
+    transition: 0.5s; 
+}
+/* team mamber style */
+h1.team-section-title{
+    width: 400px;
+    margin: auto;
+    font-size: 35px;
+    font-family: 'Work Sans';
+    margin-top: -2px;
+    color: #FF900E;
+   padding-top: 20px;
+}
+section.team-section {
+    margin-top: 80px;
+    background-color: #444343;
+    padding-bottom: 25px;
+}
+.team-mamber-card img{
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+}
+
+.team-mambers{
+    margin-top: 100px;
+    display: grid;
+    row-gap: 50px;
+    justify-items: center;
+    grid-template-columns: repeat(3,2fr);
+    justify-content: space-evenly;
+}
+
+h1.team-mamber-name{
+    
+    font-size: 28px;
+    font-family: 'Work Sans';
+    margin-top: 20px;
+    color: #FF900E;
+    text-align: center;
+}
+
+.some{
+    margin-left: 50px;
+    margin-top: 80px;
+}
+h1.some-title{
+    width: 300px;
+    height: 53px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    
+}
+p.some-description{
+    width: 542px;
+    height: 52px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 25px;
+
+
+}
+
+/* our detail section style */
+.our-details{
+display: flex;
+justify-content: space-around;
+margin-top: 100px;
+}
+.our-detail{
+    width: 241.83px;
+    height: 241.83px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.our-detail:hover.our-detail h2{
+    font-size: 70px;
+    transition: 0.5s;
+    padding-right: 20px;
+}
+.our-detail:hover.our-detail h6{
+    padding-top: 20px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.our-detail:hover.our-detail img{
+    width: 80px;
+    height: 80px;
+    transition: 0.5s;
+}
+
+.our-detail:hover{
+    background-color: #444343;
+    color: #FF900E;
+    transition: 0.5s ease-out;
+}
+.our-detail:hover h2{
+    color: #FFFFFF;
+    transition: 0.5s ease-out;
+}
+.our-detail:hover h6{
+    color: #FFFFFF;
+    transition: 0.5s ease-out;
+    
+}
+
+
+.our-detail img{
+width: 47.39px;
+height: 45.22px;
+margin-bottom: 10px;
+}
+.our-detail h2{
+    width: 55px;
+    height: 53px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    padding-right: 25px;
+}
+.our-detail h6{
+    width: 170px;
+   font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 20px;
+   color: #727272;
+    
+}    
+
+h2.h2-1{
+    width: 100px;
+}
+h2.h2-2{
+    width: 80px;
+
+}
+h2.h2-3{
+    width: 120px;
+
+}
+h6.change-h6{
+    width: 112px;
+    margin-left: 20px;
+}
+h6.change-h6-2{
+    margin-left: 15px;
+}
+
+
+/*-------------------------------
+            our Sponspors style
+        ---------------------------------*/
+.our-sponspors-section{
+width: 400px;
+margin: auto;
+padding-top: 70px;
+
+}
+
+h1.our-sponspor-header{
+    width: 100%;
+    height: 53px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 26px;
+    text-align: center;
+    
+}
+
+p.our-sponspor-description{
+    width: 542px;
+    height: 52px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #727272;
+    margin-left: -100px;
+    
+}
+
+.sponspors-logo {
+    margin-top:50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* footer section style */
+.footer{
+    margin: auto;
+    width: 900px;
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    display: flex;
+    margin-top: 130px;
+}
+.footer p{
+    margin: auto;
+    text-align: center;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+
+}
+
+/* media query style*/
+@media only screen and (max-width:676px) {
+    body{
+        width: fit-content;
+
+    }
+    .header-logo {
+        margin-left: -70px;
+    }
+    .header-container{
+        width: 100%;
+        height: 100%;
+        background-color: none;
+        
+    }
+    .header-section{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .header-nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -60px;
+    }
+    .header-nav li{
+        list-style: none;
+        margin-top: 20px;
+    }
+    .features-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .fratures-img{
+        width: 40%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+.fratures-img img{
+    width: 100%;
+    height: 100%;
+}
+.features-info{
+    margin-top: 50px;
+    width: 23%;
+}
+.features-title{
+    text-align: center;
+    
+    }
+
+    .features-description{
+        padding-top: 30px;
+      text-align: center;
+      
+        
+    }
+
+    .features-button{
+        margin-left: 32px;
+     }
+    .main-showcase-section{
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       padding-top: 70px;
+    }
+    .main-showcase-img {
+            margin-top: 70px;
+        }
+    
+    .border{
+        margin-left: 23px;
+    }
+    .main-showcase-button{
+        margin: auto;
+        top: 32px;
+    }
+    .team-mambers{
+        margin-top: 100px;
+        display: grid;
+        row-gap: 50px;
+        justify-items: center;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: space-evenly;
+    }
+
+    .some{
+       
+    }
+    h1.some-title{
+        width: 100%;
+       text-align: center;
+    }
+    p.some-description{
+        text-align: center;
+        width: 60%;
+        margin-left: 180px;
+       
+    }
+
+    .our-details{
+        flex-direction: column;
+        align-items: center;
+    }
+    .our-detail{
+        margin-bottom: 10px;
+    }
+
+    p.our-sponspor-description{
+        margin-left: -60px;
+    }
+
+    .sponspors-logo{
+        margin-top:-30px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sponspors-logo img{
+        padding-top: 40px;
+    }
+    .footer{
+        margin-top: 40px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
